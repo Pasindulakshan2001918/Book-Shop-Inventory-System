@@ -1,0 +1,27 @@
+.category-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    text-align: center;
+    width: 150px;
+}
+
+.category-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.category-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
