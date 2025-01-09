@@ -71,16 +71,16 @@
   
 @media (min-width: 640px) {
     .search-input {
-      width: 18rem;  /* sm:w-72 (288px) on screens 640px and above */
+      width: 18rem;  
     }
   }
 
 .io-search{
     position: absolute;
     display: inline-block;
-    left: 0.60rem; /* Tailwind's 3 unit corresponds to 0.75rem (12px) */
-    top: 0.4rem;  /* Tailwind's inset-y-2 corresponds to 0.5rem (8px) */
-    bottom: 0.55rem; /* Tailwind's inset-y-2 corresponds to 0.5rem (8px) */
+    left: 0.60rem; 
+    top: 0.4rem;  
+    bottom: 0.55rem; 
       
 }
 
