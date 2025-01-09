@@ -1,0 +1,97 @@
+/* Ensure the container takes up the full viewport height */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* Define global CSS variables for colors and fonts */
+:root {
+  --color-primary: #FFCE1A;       /* Yellowish primary color */
+  --color-secondary: #0D0842;    /* Dark blue secondary color */
+  --color-blackBG: #F3F3F3;      /* Light gray background */
+  --color-favorite: #FF5841;     /* Red favorite color */
+
+  --font-primary: 'Montserrat', sans-serif; /* Primary font */
+  --font-secondary: 'Nunito Sans', sans-serif; /* Secondary font */
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+.primary-text {
+  color: var(--color-primary); /* Yellow text */
+}
+
+.secondary-text {
+  color: var(--color-secondary); /* Dark blue text */
+}
+
+.favorite {
+  color: var(--color-favorite); /* Red text */
+}
+
+/* Font-specific classes */
+.font-primary {
+  font-family: var(--font-primary); /* Apply primary font */
+}
+
+.font-secondary {
+  font-family: var(--font-secondary); /* Apply secondary font */
+}
+
+/* Allow the main content to expand and push the footer down */
+.main-content {
+  flex-grow: 1; /* Makes the main content take up all available space */
+  min-height: 100vh;          /* Full viewport height */
+  max-width: 1536px;          /* 2xl breakpoint */
+  margin-left: auto;          /* Center horizontally */
+  margin-right: auto;
+  padding-left: 1rem;         /* Horizontal padding */
+  padding-right: 1rem;
+  padding-top: 1.5rem;        /* Vertical padding */
+  padding-bottom: 1.5rem;
+  font-family: 'Montserrat'; /* Use the Roboto font */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev {
+  display: none !important;
+}
+.swiper-button-next{
+  @apply bg-white p-5 rounded-full z-50 shadow-md
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+  font-size: 16px !important;
+}
+
+.btn-primary {
+  @apply bg-primary  px-12 py-2 rounded-md text-base font-secondary font-bold hover:bg-secondary hover:text-white transition-all duration-200 cursor-pointer
+}
+
+.html{
+ scroll-behavior: smooth;
+}

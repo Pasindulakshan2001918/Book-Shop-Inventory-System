@@ -1,0 +1,86 @@
+.navbar-container{
+
+    max-width: 1536px;        /* Equivalent to max-w-screen-2xl */
+    margin-left: 80px;        
+    margin-right: 80px;       
+    padding-left: 16px;       /* Equivalent to px-4 */
+    padding-right: 16px;      /* Equivalent to px-4 */
+    padding-top: 24px;        /* Equivalent to py-6 */
+    padding-bottom: 24px;     /* Equivalent to py-6 */
+
+}
+
+.nav-flex{
+    display: flex;              /* Equivalent to flex */
+    justify-content: space-between; /* Equivalent to justify-between */
+    align-items: center;   
+    width: 100%;
+}
+
+.logo-search {
+    display: flex;              /* Align logo and search bar horizontally */
+    align-items: center;        
+    align-items: center;  /* items-center */
+    gap: 1rem;  /* gap-4 (default gap of 16px) */
+}
+
+@media (min-width: 768px) {
+    .logo-search {
+      gap: 4rem;  /* md:gap-16 (gap of 64px on medium screens and up) */
+    }
+}
+
+
+
+.nav-items {
+    display: flex;              /* Align nav items horizontally */
+    gap: 20px;                  /* Space between nav items */
+    
+}
+
+.search-section{
+    background-color:#EAEAEA;
+    width: 100%;                /* w-full */
+    padding-top: 0.25rem;       /* py-1 */
+    padding-bottom: 0.25rem;    /* py-1 */
+    padding-left: 1.5rem;       /* px-6 */
+    padding-right: 1.5rem;      /* px-6 */
+    border-radius: 0.375rem;    /* rounded-md */
+
+}
+
+@media (min-width: 768px) {
+    .search-section {
+      padding-left: 2rem;       /* md:px-8 */
+      padding-right: 2rem;      /* md:px-8 */
+    }
+  }
+  
+.search-section:focus {
+    outline: none;  /* focus:outline-none */
+  }
+
+.search-input{
+    position: relative;  /* relative */
+    width: 10rem;         /* w-40 (160px) */
+  }
+
+.search-input > * {
+    margin-right: 0.5rem; /* space-x-2 (8px) */
+  }
+  
+@media (min-width: 640px) {
+    .search-input {
+      width: 18rem;  /* sm:w-72 (288px) on screens 640px and above */
+    }
+  }
+
+.io-search{
+    position: absolute;
+    display: inline-block;
+    left: 0.60rem; /* Tailwind's 3 unit corresponds to 0.75rem (12px) */
+    top: 0.4rem;  /* Tailwind's inset-y-2 corresponds to 0.5rem (8px) */
+    bottom: 0.55rem; /* Tailwind's inset-y-2 corresponds to 0.5rem (8px) */
+      
+}
+
