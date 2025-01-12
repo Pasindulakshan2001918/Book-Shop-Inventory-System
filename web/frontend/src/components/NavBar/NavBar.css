@@ -1,8 +1,8 @@
 .navbar-container{
 
     max-width: 1536px;        /* Equivalent to max-w-screen-2xl */
-    margin-left: 80px;        
-    margin-right: 80px;       
+    margin-left: 60px;        
+    margin-right: 60px;       
     padding-left: 16px;       /* Equivalent to px-4 */
     padding-right: 16px;      /* Equivalent to px-4 */
     padding-top: 24px;        /* Equivalent to py-6 */
@@ -83,4 +83,129 @@
     bottom: 0.55rem; 
       
 }
+
+
+.heart-button {
+  border: none;             /* Removes the border */
+  background: transparent;  /* Ensures no background */
+  outline: none;            /* Removes the focus outline */
+  padding: 0;               /* Removes any padding */
+  cursor: pointer;         /* Adds pointer cursor for interactivity */
+  display: inline-flex;     /* Aligns the heart icon properly */
+  justify-content: center;  /* Centers the icon */
+  align-items: center;      /* Centers the icon */
+  box-shadow: none;         /* Removes any box shadow, which could resemble a border */
+  appearance: none;         /* Resets any browser default styling */
+}
+
+.heart-button:focus {
+  outline: none;            /* Removes the focus outline if the button is clicked */
+}
+
+
+
+@media (min-width: 640px) {
+  .heart-button {
+    display: inline-flex;    
+  }
+}
+
+
+.cart-icon {
+  background-color: var(--color-primary); /* Replace with your primary color */
+  padding: 0.25rem; /* Equivalent to p-1 */
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center items vertically */
+  border-radius: 0.125rem; /* Rounded corners (small) */
+}
+
+@media (min-width: 640px) {
+  .cart-icon {
+    padding-left: 1.5rem; /* sm:px-6 */
+    padding-right: 1.5rem; /* sm:px-6 */
+  }
+}
+
+.cart-icon {
+  padding-left: 0.5rem; 
+  padding-right: 0.5rem; 
+}
+
+
+
+.span{
+
+  color: black;
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  font-weight: 600; /* Equivalent to font-semibold */
+}
+
+@media (min-width: 640px) {
+  .span {
+    margin-left: 0.25rem; /* Equivalent to sm:ml-1 */
+  }
+}
+
+.avatar-button {
+  border: none;             /* Removes the border */
+  background: transparent;  /* Ensures no background */
+  outline: none;            /* Removes the focus outline */
+  padding: 0;               /* Removes any padding */
+  cursor: pointer;         /* Adds pointer cursor for interactivity */
+  display: inline-flex;     
+  justify-content: center;  /* Centers the icon */
+  align-items: center;      /* Centers the icon */
+  box-shadow: none;         /* Removes any box shadow, which could resemble a border */
+  appearance: none;
+  position: relative;
+  
+}
+
+.avatar-button img {
+  width: 25px !important;  /* Increase the width of the image */
+  height: 25px !important; /* Increase the height of the image */
+  border-radius: 50%;     /* Keep the image round */
+  object-fit: cover;      /* Ensure the image is cropped appropriately */
+  display: block;         /* Ensure the image displays correctly */
+  box-shadow: 0 0 0 2px #3b82f6;
+  
+}
+
+.item-list {
+  position: absolute;        /* Absolute positioning relative to avatar button */
+  right:50px ;                    /* Align it to the left edge of the button */
+  width: 12rem;               /* Dropdown width */
+  background-color: #ffffff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 0.375rem;    /* Rounded corners */
+  z-index: 40;                /* Ensure the dropdown appears above other content */
+  margin-top: 0.5rem;         /* Add some space between the avatar and dropdown */
+}
+
+.item-list ul {
+  list-style: none; /* Removes bullets */
+  padding-left: 0;   /* Removes default padding */
+  margin: 0;         /* Removes any default margin */
+}
+
+.list-linespace {
+  padding-top: 0.5rem;  
+  padding-bottom: 0.5rem; 
+}
+
+.list-style {
+  display: block; /* block */
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+  padding-top: 0.5rem; /* py-2 */
+  padding-bottom: 0.5rem; /* py-2 */
+  font-size: 0.875rem; /* text-sm */
+  text-decoration: none;  /* Removes underline from links */
+  color: #000;           /* Set link color */
+}
+
+.list-style:hover {
+  background-color: #f3f4f6; /* hover:bg-gray-100 */
+}
+
 

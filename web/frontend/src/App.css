@@ -20,6 +20,9 @@
 
 body {
   font-family: var(--font-primary);
+  background-color: var(--color-blackBG); /* Applying background color */
+  margin: 0;
+  padding: 0;
 }
 
 .primary-text {
@@ -81,15 +84,33 @@ body {
   display: none !important;
 }
 .swiper-button-next{
-  @apply bg-white p-5 rounded-full z-50 shadow-md
+  background-color: #fff; /* Background white */
+  padding: 1.25rem; /* Equivalent to p-5 */
+  border-radius: 50%; /* Rounded button */
+  z-index: 50; /* Ensure it’s above other content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow *
 }
 
-.swiper-button-prev:after, .swiper-button-next:after{
+.swiper-button-prev:after, 
+.swiper-button-next:after{
   font-size: 16px !important;
 }
 
 .btn-primary {
-  @apply bg-primary  px-12 py-2 rounded-md text-base font-secondary font-bold hover:bg-secondary hover:text-white transition-all duration-200 cursor-pointer
+  background-color: var(--color-primary);
+  padding: 0.5rem 3rem;    /* Equivalent to px-12 py-2 */
+  border-radius: 0.375rem; /* Rounded corners */
+  font-size: 1rem; /* text-base */
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
 }
 
 .html{
