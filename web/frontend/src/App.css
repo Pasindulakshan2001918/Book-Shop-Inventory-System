@@ -51,8 +51,8 @@ body {
   flex-grow: 1; /* Makes the main content take up all available space */
   min-height: 100vh;          /* Full viewport height */
   max-width: 1536px;          /* 2xl breakpoint */
-  margin-left: auto;          /* Center horizontally */
-  margin-right: auto;
+  margin-left: 60px;          /* Center horizontally */
+  margin-right: 60px;
   padding-left: 1rem;         /* Horizontal padding */
   padding-right: 1rem;
   padding-top: 1.5rem;        /* Vertical padding */
@@ -88,7 +88,7 @@ body {
   padding: 1.25rem; /* Equivalent to p-5 */
   border-radius: 50%; /* Rounded button */
   z-index: 50; /* Ensure it’s above other content */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow *
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .swiper-button-prev:after, 
@@ -98,12 +98,12 @@ body {
 
 .btn-primary {
   background-color: var(--color-primary);
-  padding: 0.5rem 3rem;    /* Equivalent to px-12 py-2 */
-  border-radius: 0.375rem; /* Rounded corners */
-  font-size: 1rem; /* text-base */
+  padding: 0.5rem 3rem;    
+  border-radius: 0.375rem; 
+  font-size: 1rem; 
   font-family: var(--font-secondary);
   font-weight: bold;
-  color: #fff;
+  color: black;
   cursor: pointer;
   transition: all 0.2s ease;
 }

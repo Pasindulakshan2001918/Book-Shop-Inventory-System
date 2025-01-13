@@ -1,0 +1,72 @@
+.banner-title{
+
+    font-size: 1.25rem; /* 2xl */
+    font-weight: 500; /* medium */
+    margin-bottom: 1.75rem; /* mb-7 */
+
+}
+
+@media (min-width: 768px) { 
+    .banner-title {
+      font-size: 2rem; 
+    }
+  }
+
+
+.title-description{
+
+    margin-bottom: 2.5rem;
+}
+
+.banner-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem; /* 16 * 0.25rem = 4rem */
+    padding-bottom: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem; /* 12 * 0.25rem = 3rem */
+}
+  
+@media (min-width: 768px) {
+    .banner-section {
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+}
+
+
+.banner-image {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  @media (min-width: 768px) {
+    .banner-image {
+      width: 50%; /* Set image to take up 50% of the container */
+      height: 500px;
+      justify-content: flex-end; /* Align image to the right */
+    }
+  }
+  
+  
+  .text-block {
+    width: 100%;
+    display: flex;
+    margin-bottom:50px;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    justify-content: center; /* Vertically center the text */
+  }
+  
+  @media (min-width: 768px) {
+    .text-block {
+      width: 50%; /* Set text block to take up 50% of the container */
+      align-items: flex-start; /* Keep text aligned to the left */
+      justify-content: center; /* Vertically center the text */
+    }
+  }
+  
