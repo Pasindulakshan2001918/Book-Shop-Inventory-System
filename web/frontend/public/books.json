@@ -198,6 +198,46 @@
       "coverImage": "book-20.png",
       "oldPrice": 24.99,
       "newPrice": 14.99
+    },
+    {
+      "_id": 21,
+      "title": "Tails of The Peculiar",
+      "description": "*The Tales of the Pelicular Story* is a fantastical adventure where mythical beings embark on a perilous journey to uncover the secrets of a lost civilization. Through trials of courage and camaraderie, they must confront dark forces threatening their world.",
+      "category": "fantasy",
+      "trending": true,
+      "coverImage": "book-21.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    },
+    {
+      "_id": 22,
+      "title": "Library of Souls",
+      "description": "The Library of Souls is a mystical tale where a young protagonist discovers an ancient library that holds the essence of every soul ever lived. As they delve deeper into its secrets, they must confront powerful forces to protect the knowledge that could reshape the world.",
+      "category": "fantasy",
+      "trending": true,
+      "coverImage": "book-22.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    },
+    {
+      "_id": 23,
+      "title": "Hollow City",
+      "description": "The Hollow City is a gripping urban fantasy where a hidden, crumbling metropolis exists beneath the surface of the modern world. As dark secrets unravel, a group of unlikely heroes must navigate its treacherous streets to stop an ancient evil from rising again.",
+      "category": "fantasy",
+      "trending": true,
+      "coverImage": "book-23.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
+    },
+    {
+      "_id": 24,
+      "title": "Peculiar Children",
+      "description": " young boy who discovers an orphanage filled with children possessing strange, supernatural abilities. As he uncovers their secrets, he must protect them from dangerous creatures that seek to destroy their world.",
+      "category": "fantasy",
+      "trending": true,
+      "coverImage": "book-24.png",
+      "oldPrice": 24.99,
+      "newPrice": 14.99
     }
   ]
   

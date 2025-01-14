@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import './TopSeller.css';
 import BookCard from '../books/BookCard';
 
 // Import Swiper React components
@@ -13,40 +12,20 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-const categories = ["Choose a genre", "Business", "Fiction", "Horror", "Adventure","Fantasy" ]
-
-const TopSellers = () => {
+const Recommended = () => { 
 
     const [books, setBooks] = useState([]);
-    const [selectedCategory, setSelectedCategory] = useState("Choose a genre");
-
+    
+    
     useEffect(() => {
-        fetch("books.json")
-        .then(res => res.json())
-        .then((data) => setBooks(data))
+            fetch("books.json")
+            .then(res => res.json())
+            .then((data) => setBooks(data))
     }, [])
 
-    const filteredBooks = selectedCategory === "Choose a genre" ? books : books.filter(book => book.category === selectedCategory.toLowerCase())
-
-    console.log(filteredBooks)
-    
-
   return (
-    <div className="topseller-section">
-        <h2 className="section-heading">Top Sellers</h2>
-
-        {/* filter category*/}
-        <div className="category-section">
-            <select 
-            onChange={(e) => setSelectedCategory(e.target.value)}
-            name="category" id="category" className="select-button">
-                {
-                    categories.map((category, index) => (
-                            <option key={index} value={category}>{category}</option>
-                        ))
-                }
-            </select>
-        </div>
+    <div className="put-gap">
+        <h2 className="section-heading">Recommended for you</h2>
 
         <Swiper 
         slidesPerView={1}
@@ -75,7 +54,7 @@ const TopSellers = () => {
       >
 
         {
-            filteredBooks.length > 0 && filteredBooks.map((book, index) => (
+            books.length > 0 && books.slice(8, 18).map((book, index) => (
                 <SwiperSlide key={index} >
                     <BookCard  book={book}/>
                 </SwiperSlide>
@@ -89,10 +68,10 @@ const TopSellers = () => {
         
         </Swiper>
 
-       
-
     </div>
+
+
   )
 }
 
-export default TopSellers;
+export default Recommended
