@@ -1,0 +1,72 @@
+.news-title {
+    font-size: 1.875rem;  /* 30px */
+    font-weight: 600;     /* Semi-bold */
+    margin-bottom: 1.5rem;  /* 24px */
+}
+
+.news-section-padding {
+    padding-top: 4rem;  /* 64px */
+    padding-bottom: 4rem;  /* 64px */
+}
+  
+.content-padding{
+
+    padding-top: 4rem;  /* 64px */
+    padding-bottom: 4rem;  /* 64px */
+    padding-left: 10px;
+}
+
+.title-design {
+    font-size: 1.125rem;  /* 18px */
+    font-weight: 500;     /* Medium */
+    margin-bottom: 1rem;  /* 16px */
+}
+  
+.title-design:hover {
+    color: #3b82f6;  /* Tailwind's blue-500 color */
+}
+
+.description-section {
+    width: 3rem;          /* 48px */
+    height: 4px;
+    background-color: var(--primary);  /* Assuming --primary is a CSS variable for your primary color */
+    margin-bottom: 1.25rem; /* 20px */
+}
+
+.description-design {
+    font-size: 0.875rem;      /* 14px */
+    color: #4B5563;           /* Tailwind's gray-600 */
+}
+
+.image-design {
+    width: 100%;
+    object-fit: cover;
+}
+
+.news-section {
+    display: flex;
+    flex-direction: column; /* Align items vertically by default */
+    align-items: center;    /* Center items horizontally (in a column) */
+    gap: 3rem;              /* 48px space between items */
+    
+}
+  
+@media (min-width: 640px) { /* sm breakpoint, typically 640px */
+    .news-section {
+      flex-direction: row;         /* Align items horizontally */
+      justify-content: space-between; /* Spread items out with space between */
+    }
+}
+  
+.image-section {
+    flex-shrink: 0;
+    padding-right: 10px;
+}
+
+
+  
+  
+  
+  
+  
+  
