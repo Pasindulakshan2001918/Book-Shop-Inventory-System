@@ -18,7 +18,7 @@ const navigation = [
 
 const NavBar = () => {
 
-  const  [isDropdownOpen, setIsDropdownOpen] = useState(false)
+  const  [isDropdownOpen, setIsDropdownOpen] = useState(true)
   console.log(isDropdownOpen)
 
   const currentUser = true;
@@ -82,7 +82,7 @@ const NavBar = () => {
                 )
               }
 
-              </> : <Link to="/ login"><FaRegUser size={20}  /></Link>
+              </> : <Link to="/login"><FaRegUser  size={25} style={{paddingTop: '4px', color: 'black'}}  /></Link>
             }
           </div>
         
