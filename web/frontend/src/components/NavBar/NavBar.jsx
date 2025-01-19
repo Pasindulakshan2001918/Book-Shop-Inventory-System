@@ -7,6 +7,7 @@ import { GiShoppingCart } from "react-icons/gi";
 import { IoSearchOutline } from "react-icons/io5";
 import './NavBar.css';
 import avatarImg from "../../assets/avatar.png"
+import { useSelector } from "react-redux";
 
 const navigation = [
   {name: "Dashboard", href:"/user-dashboard"},
@@ -18,10 +19,12 @@ const navigation = [
 
 const NavBar = () => {
 
-  const  [isDropdownOpen, setIsDropdownOpen] = useState(true)
-  console.log(isDropdownOpen)
+  const  [isDropdownOpen, setIsDropdownOpen] = useState(false)
+  const cartItems = useSelector(state => state.cart.cartItems);
+  
+  
 
-  const currentUser = true;
+  const currentUser = false;
   return (
     <header className="navbar-container">
       <nav className="nav-flex">
@@ -92,7 +95,11 @@ const NavBar = () => {
 
         <Link to="/cart" className="cart-icon">
         <GiShoppingCart size={19} style={{ color: 'black' }}/>
-        <span className="span" >0</span>
+        {
+          cartItems.length > 0 ? <span className="span" >{cartItems.length}</span>:
+          <span className="span" >0</span>
+        }
+        
         </Link>
         </div>
       </nav>

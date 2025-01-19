@@ -69,4 +69,9 @@
       justify-content: center; /* Vertically center the text */
     }
   }
+
+.btn-primary{
+
+  border: none;
+}
   
