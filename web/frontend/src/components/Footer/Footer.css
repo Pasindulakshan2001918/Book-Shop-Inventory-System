@@ -130,6 +130,7 @@
     padding-bottom: 0.5rem; /* py-2 (adds 0.5rem (8px) padding to the bottom) */
     border-radius: 0.375rem; /* rounded-r-md (rounds the right-side corners, typically 6px) */
     transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+    height: 100%;
 }
   
 .button-design:hover {
