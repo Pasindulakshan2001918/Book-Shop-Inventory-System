@@ -7,6 +7,15 @@ import Register from '../components/Register/Register';
 import CartPage from '../pages/books/CartPage';
 import CheckoutPage from '../pages/books/CheckoutPage';
 import SingleBook from '../pages/books/SingleBook';
+import OrderPage from '../pages/books/OrderPage';
+import AdminRoute from './AdminRoute';
+import AdminLogin from '../components/AdminLogin/AdminLogin';
+import DashboardLayout from '../pages/dashboard/DashboardLayout';
+import Dashboard from '../pages/dashboard/Dashboard';
+import ManageBooks from '../pages/dashboard/ManageBooks/ManageBooks';
+import AddBook from '../pages/dashboard/Addbook/AddBook';
+import UpdateBook from '../pages/dashboard/EditBook/UpdateBook';
+
 
 
 const router = createBrowserRouter([
@@ -20,7 +29,7 @@ const router = createBrowserRouter([
         },
         {
             path: "/orders",
-            element: <div>Orders</div>
+            element: <div><OrderPage/></div>
         },
         {
             path: "/about",
@@ -49,6 +58,34 @@ const router = createBrowserRouter([
 
       ]
     },
+
+    {
+      path: "/admin",
+      element: <div><AdminLogin/></div>
+    },
+
+    {
+      path: "/dashboard",
+      element: <AdminRoute><div><DashboardLayout/></div></AdminRoute>,
+      children:[
+        {
+          path: "",
+          element: <AdminRoute><div><Dashboard/></div></AdminRoute>
+        },
+        {
+          path: "add-new-book",
+          element: <AdminRoute><AddBook/></AdminRoute>
+        },
+        {
+          path: "edit-book/:id",
+          element: <AdminRoute><UpdateBook/></AdminRoute>
+        },
+        {
+          path: "manage-books",
+          element: <AdminRoute><ManageBooks/></AdminRoute>
+        }
+      ]
+    }
   ]);
 
   export default router;

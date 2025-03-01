@@ -1,26 +1,47 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { useForm } from "react-hook-form";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 import './CheckoutPage.css';
+import { useCreateOrderMutation } from '../../redux/features/orders/ordersApi';
+import Swal from 'sweetalert2';
 
 const CheckoutPage = () => {
+  const navigate = useNavigate();
+  const auth = getAuth();
+
+  // State to track user authentication
+  const [currentUser, setCurrentUser] = useState(null);
+
+  useEffect(() => {
+    // Listen for authentication state change
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setCurrentUser(user);
+      } else {
+        navigate("/login"); // Redirect to login if not authenticated
+      }
+    });
+
+    return () => unsubscribe(); // Cleanup on unmount
+  }, [auth, navigate]);
+
   const cartItems = useSelector((state) => state.cart.cartItems);
   const totalPrice = cartItems.reduce((acc, item) => acc + item.newPrice, 0).toFixed(2);
 
-  // Replace true with actual user object (or use actual user state from Redux)
-  const currentUser = { email: "user@example.com" };
-
   const { register, handleSubmit, formState: { errors } } = useForm();
+
+  const [createAOrder, {isLoading, error}] = useCreateOrderMutation(); 
+  
 
   const [isChecked, setIsChecked] = useState(false);
 
-  // Update the checkbox state when checked or unchecked
   const handleCheckboxChange = () => {
     setIsChecked((prev) => !prev);
   };
 
-  const onSubmit = (data) => {
+  const onSubmit = async(data) => {
     const newOrder = {
       name: data.name,
       email: currentUser?.email,
@@ -34,8 +55,26 @@ const CheckoutPage = () => {
       productIds: cartItems.map((item) => item?._id),
       totalPrice: totalPrice,
     };
-    console.log(newOrder);
+    try {
+      await createAOrder(newOrder).unwrap();
+      Swal.fire({
+        title: "Confirmed Order",
+        text: "Your order placed successfully!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, It's Okay!"
+      });
+      navigate("/orders")
+    } catch (error) {
+        console.error("Error place an order" , error);
+        alert("Failed to place an order")
+      
+    }
   };
+
+  if(isLoading) return <div>Loading....</div>
 
   return (
     <section>

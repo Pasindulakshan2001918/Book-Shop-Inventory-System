@@ -197,11 +197,13 @@
 
 .checkout-link {
   margin-top: 1.5rem;
+  
 }
 
 .link-design {
   display: flex;
   align-items: center;
+  width: 96%;
   justify-content: center;
   border-radius: 0.375rem; 
   border: 1px solid transparent; 
@@ -219,6 +221,7 @@
 
 .link-design:hover {
   background-color: #4338CA; 
+  
 }
 
 .button-link {

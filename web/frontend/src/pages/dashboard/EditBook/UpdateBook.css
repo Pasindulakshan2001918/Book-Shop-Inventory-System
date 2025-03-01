@@ -1,0 +1,62 @@
+.margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.button-style {
+    border-radius: 0.375rem;
+    color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); 
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .button-style:focus {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5); 
+  }
+
+  .label-style {
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #374151;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 700;
+    border-radius: 0.375rem;
+  }
+  
+  .update-book-container {
+    max-width: 40rem; 
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 3rem; 
+    padding: 3rem; 
+    background-color: white;
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+    font-weight: 700; 
+    color: #2d3748; 
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

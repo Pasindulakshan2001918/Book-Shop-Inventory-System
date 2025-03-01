@@ -1,0 +1,27 @@
+.centered-fullscreen {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.spinner-blue {
+    animation: spin 1s linear infinite; 
+    border-radius: 9999px; 
+    height: 4rem; 
+    width: 4rem; 
+    border-top-width: 4px; 
+    border-color: #3b82f6; 
+    border-style: solid; 
+}
+  
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+  

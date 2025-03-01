@@ -1,0 +1,45 @@
+.text-design {
+    color: #4B5563; 
+  }
+
+.text-font{
+
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.badge {
+    padding: 0.25rem; 
+    background-color: var(--secondary-color); 
+    color: white; 
+    width: 2.5rem; 
+    border-radius: 0.25rem; 
+    margin-bottom: 0.25rem;
+}
+
+.bold-font {
+    font-weight: bold; 
+}
+
+.order-container {
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 1rem; 
+    padding-bottom: 1rem; 
+}
+
+.order-wrapper {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 1.5rem; 
+}
+
+.order-heading {
+    font-size: 1.5rem; 
+    font-weight: 600;
+    margin-bottom: 1rem; 
+}
+  
+  
+  
+  
