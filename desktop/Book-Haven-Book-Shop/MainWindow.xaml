@@ -1,0 +1,26 @@
+﻿<Window x:Class="BookShopInventory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Book-Haven - Welcome" Height="450" Width="800">
+    <Grid Background="#F4F4F4">
+        <!-- Header Section -->
+        <Border Background="#2E3A59" Padding="20" HorizontalAlignment="Left" Width="800">
+            <TextBlock Text="Welcome To Book-Haven" Foreground="White" FontSize="36" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Height="95" Margin="0,114,0,0"/>
+        </Border>
+
+        <!-- Main Content Section -->
+        <StackPanel Margin="300,110,0,41" HorizontalAlignment="Left" Width="200">
+            <!-- Welcome Message -->
+            <TextBlock FontSize="18" Foreground="Gray" HorizontalAlignment="Center" Margin="0,0,0,30" Height="114"/>
+            <Button Content="Admin Login" Width="200" Height="50" FontSize="16" Background="#2E3A59" Foreground="White" BorderBrush="#2E3A59" BorderThickness="2" Click="AdminLogin_Click"/>
+
+            <!-- Buttons with Spacing Between Them -->
+            <Button Content="Sign Up" Width="200" Height="50" FontSize="16" Background="#2E3A59" Foreground="White" BorderBrush="#2E3A59" BorderThickness="2" HorizontalAlignment="Center" Margin="0,0,0,20" Click="AdminSignUp_Click"/>
+        </StackPanel>
+
+        <!-- Footer Section -->
+        <Border Background="#2E3A59" VerticalAlignment="Bottom" Padding="10">
+            <TextBlock Text="© 2025 Book-Haven. All Rights Reserved." Foreground="White" FontSize="12" HorizontalAlignment="Center"/>
+        </Border>
+    </Grid>
+</Window>

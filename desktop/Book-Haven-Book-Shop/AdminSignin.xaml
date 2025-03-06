@@ -1,0 +1,53 @@
+﻿<Window x:Class="BookShopInventory.AdminSignin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Admin Login - Book-Haven" Height="450" Width="800">
+    <Grid Background="#F4F4F4">
+        <!-- Header Section -->
+        <Border Background="#2E3A59" Padding="20">
+            <TextBlock Text="Admin Sign in - Book-Haven" Foreground="White" FontSize="36" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Center" Height="61" Margin="0,5,0,0"/>
+        </Border>
+
+        <!-- Main Content Section -->
+        <StackPanel Margin="150,100,0,41" HorizontalAlignment="Left" Width="500">
+            <!-- Admin Email -->
+            <TextBlock Text="Admin Email" FontSize="18" Foreground="Gray" Margin="0,0,0,10"/>
+            <TextBox x:Name="EmailTextBox" Width="Auto" Height="40" FontSize="16" Margin="0,0,0,20"  BorderBrush="#2E3A59" BorderThickness="2">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Style.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="Foreground" Value="Black"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+
+            <!-- Admin Password -->
+            <TextBlock Text="Password" FontSize="18" Foreground="Gray" Margin="0,0,0,10"/>
+            <PasswordBox x:Name="PasswordBox" Width="Auto" Height="40" FontSize="16" Padding="10" BorderBrush="#2E3A59" BorderThickness="2">
+                <PasswordBox.Style>
+                    <Style TargetType="PasswordBox">
+                        <Style.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="Foreground" Value="Black"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </PasswordBox.Style>
+            </PasswordBox>
+
+            <!-- Login Button -->
+            <Button Content="Sign In" Width="200" Height="50" FontSize="16" Background="#32CD32" Foreground="White" BorderBrush="#2E3A59" BorderThickness="2" Margin="0,20,0,20" Click="AdminSignin_Click"/>
+
+            <!-- Error Message -->
+            <TextBlock x:Name="ErrorMessage" Foreground="Red" FontSize="14" HorizontalAlignment="Center" Visibility="Collapsed" Margin="0,10"/>
+        </StackPanel>
+
+        <!-- Footer Section -->
+        <Border Background="#2E3A59" VerticalAlignment="Bottom" Padding="10">
+            <TextBlock Text="© 2025 Book-Haven. All Rights Reserved." Foreground="White" FontSize="12" HorizontalAlignment="Center"/>
+        </Border>
+    </Grid>
+</Window>

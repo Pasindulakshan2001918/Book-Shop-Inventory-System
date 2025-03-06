@@ -1,0 +1,450 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\deletebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:deletebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\deletebook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:deletebook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\editbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:editbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\addbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:addbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\addbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:addbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\editbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:editbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\adminsignin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:adminsignin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\adminlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:adminlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\adminlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:adminlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\data\\bookshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:data\\bookshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\adminsignin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:adminsignin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\adminlogin.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:adminlogin.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\obj\\Debug\\net8.0-windows\\g1njhppx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\g1njhppx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\book-haven-book-shop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:book-haven-book-shop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|c:\\users\\pasindu\\documents\\github\\book-shop-inventory-system\\desktop\\book-haven-book-shop\\migrations\\20250305122637_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B1333B-7469-40DE-9B29-04A747A32F24}|Book-Haven-Book-Shop.csproj|solutionrelative:migrations\\20250305122637_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 383,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditBook.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\EditBook.xaml",
+              "RelativeDocumentMoniker": "EditBook.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\EditBook.xaml",
+              "RelativeToolTip": "EditBook.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T14:39:54.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddBook.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AddBook.xaml",
+              "RelativeDocumentMoniker": "AddBook.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AddBook.xaml",
+              "RelativeToolTip": "AddBook.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T14:38:55.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddBook.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AddBook.xaml.cs",
+              "RelativeDocumentMoniker": "AddBook.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AddBook.xaml.cs",
+              "RelativeToolTip": "AddBook.xaml.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAcwIgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:45:18.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteBook.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\DeleteBook.xaml.cs",
+              "RelativeDocumentMoniker": "DeleteBook.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\DeleteBook.xaml.cs",
+              "RelativeToolTip": "DeleteBook.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:13:08.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T16:07:16.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminLogin.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminLogin.xaml",
+              "RelativeDocumentMoniker": "AdminLogin.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminLogin.xaml",
+              "RelativeToolTip": "AdminLogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T14:22:55.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditBook.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\EditBook.xaml.cs",
+              "RelativeDocumentMoniker": "EditBook.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\EditBook.xaml.cs",
+              "RelativeToolTip": "EditBook.xaml.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:11:49.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteBook.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\DeleteBook.xaml",
+              "RelativeDocumentMoniker": "DeleteBook.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\DeleteBook.xaml",
+              "RelativeToolTip": "DeleteBook.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:51:22.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminLogin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminLogin.xaml.cs",
+              "RelativeDocumentMoniker": "AdminLogin.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminLogin.xaml.cs",
+              "RelativeToolTip": "AdminLogin.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:25:21.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminSignin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminSignin.xaml.cs",
+              "RelativeDocumentMoniker": "AdminSignin.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminSignin.xaml.cs",
+              "RelativeToolTip": "AdminSignin.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwEgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:30:38.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:15:29.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Data\\BookShopContext.cs",
+              "RelativeDocumentMoniker": "Data\\BookShopContext.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Data\\BookShopContext.cs",
+              "RelativeToolTip": "Data\\BookShopContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:20:28.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminSignin.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminSignin.xaml",
+              "RelativeDocumentMoniker": "AdminSignin.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminSignin.xaml",
+              "RelativeToolTip": "AdminSignin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T14:27:27.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\HomePage.xaml.cs",
+              "RelativeToolTip": "HomePage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:41:26.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250305122637_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Migrations\\20250305122637_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250305122637_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Migrations\\20250305122637_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250305122637_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T12:26:37.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T14:32:29.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAANYUAAAAAAAAAAAkwPMUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-05T08:23:08.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:04:16.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Databasehelper.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Databasehelper.cs",
+              "RelativeDocumentMoniker": "Databasehelper.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Databasehelper.cs",
+              "RelativeToolTip": "Databasehelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T01:00:22.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T04:17:34.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "g1njhppx.sql",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\obj\\Debug\\net8.0-windows\\g1njhppx.sql",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\g1njhppx.sql",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\obj\\Debug\\net8.0-windows\\g1njhppx.sql",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\g1njhppx.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-05T07:08:49.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T14:04:05.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "Dashboard.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Dashboard.xaml",
+              "RelativeToolTip": "Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T14:13:49.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Book-Haven-Book-Shop.csproj",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Book-Haven-Book-Shop.csproj",
+              "RelativeDocumentMoniker": "Book-Haven-Book-Shop.csproj",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Book-Haven-Book-Shop.csproj",
+              "RelativeToolTip": "Book-Haven-Book-Shop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-05T02:00:16.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:24:33.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Dashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\Dashboard.xaml.cs",
+              "RelativeToolTip": "Dashboard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:46:18.002Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 17,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminLogin.xaml",
+              "DocumentMoniker": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminLogin.xaml",
+              "RelativeDocumentMoniker": "AdminLogin.xaml",
+              "ToolTip": "C:\\Users\\Pasindu\\Documents\\GitHub\\Book-Shop-Inventory-System\\desktop\\Book-Haven-Book-Shop\\AdminLogin.xaml",
+              "RelativeToolTip": "AdminLogin.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAGBnwA8AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T11:36:57.108Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
